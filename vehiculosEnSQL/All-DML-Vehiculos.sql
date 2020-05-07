@@ -1198,7 +1198,7 @@ insert into enOperacion (idVehiculoOperacion, modelo, ano) values ('o-722', 'Swi
 --1
 SELECT idMiembro, idVehiculo, no_asociacion, nombre
 	fecha_I, domicilio, fotografia, email, no_celular,
-	esDueño, esChofer
+	esDueno, esChofer
 FROM miembroAsociacion, enOperacion
 WHERE miembroAsociacion.idVehiculo = enOperacion.idVehiculoOperacion;
 
