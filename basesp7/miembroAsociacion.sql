@@ -9,7 +9,7 @@ create table miembroAsociacion (
 	nocelular VARCHAR(50),
 	esdueno VARCHAR(50),
 	eschofer VARCHAR(50),
-	primary key (idmiembro, idvehiculo)
+	primary key (idmiembro)
 );
 insert into miembroAsociacion (idmiembro, idvehiculo, first_name, noasociacion, email, domicilio, fechai, nocelular, esdueno, eschofer) values ('e8fb8e4b-2ad9-4205-bbfd-939be08f256b', '3ec2ef2d-f344-4b11-95ec-59d2f567ec50', 'Cindra Maytom', 'a1aa04ea-67a1-4f58-bdca-6ddd2dde4a39', 'cmaytom0@biglobe.ne.jp', '93 Welch Hill', '3/19/2019', '301-31-4066', false, false);
 insert into miembroAsociacion (idmiembro, idvehiculo, first_name, noasociacion, email, domicilio, fechai, nocelular, esdueno, eschofer) values ('5e274918-d897-4985-b563-493a3571ff6c', 'f75a2168-2bbb-4dd9-8617-e795d9816866', 'Arnaldo Bridger', '30f82def-a20e-4ea2-bfcd-417358894d5e', 'abridger1@networksolutions.com', '8613 Independence Parkway', '12/5/2019', '822-93-1414', true, false);
