@@ -4,8 +4,7 @@ create table viaja (
 	destino VARCHAR(50),
 	tiempo INT,
 	distancia INT,
-	nopasajeros INT,
-	primary key (idcliente, idvehiculo)
+	nopasajeros INT
 );
 insert into viaja (idcliente, idvehiculo, destino, tiempo, distancia, nopasajeros) values ('644bb811-98dd-4b94-9040-85e9c1ce2771', 'd88c69fb-712c-43b7-a505-9ae532383231', 'Vernon', 71, 44, 1);
 insert into viaja (idcliente, idvehiculo, destino, tiempo, distancia, nopasajeros) values ('8063073b-8532-4807-b044-6a423a03e7d8', 'fd521f60-599d-42c3-86a6-f0adb83585f0', 'Logan', 44, 98, 2);
