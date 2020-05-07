@@ -9,7 +9,7 @@ create table miembroAsociacion (
 	nocelular VARCHAR(50),
 	esdueno VARCHAR(50),
 	eschofer VARCHAR(50),
-	primary key (idmiembro, idvehiculo)
+	primary key (idmiembro)
 );
 insert into All-DML-miembroAsociacion (idmiembro, idvehiculo, first_name, noasociacion, email, domicilio, fechai, nocelular, esdueno, eschofer) values ('6b07dd49-6c6f-460e-b877-8a4a4b895eb9', '9668271d-a065-4f58-ad7d-ff4345ac5b7e', 'Verile Gallyon', '2fccf0fc-4bc9-456d-b9d1-701d9fb50718', 'vgallyon0@delicious.com', '3 Luster Lane', '9/11/2018', '790-27-5479', true, true);
 insert into All-DML-miembroAsociacion (idmiembro, idvehiculo, first_name, noasociacion, email, domicilio, fechai, nocelular, esdueno, eschofer) values ('ce9c8fa1-95c2-441b-bd67-8b676ea12430', 'f98a3d9a-f859-49bf-9c36-89f22c54cdba', 'Chiarra Weildish', 'e000cb81-2267-4b16-8441-310f8f4f1b8a', 'cweildish1@timesonline.co.uk', '78727 Meadow Valley Court', '2/13/2018', '837-56-9145', true, false);
